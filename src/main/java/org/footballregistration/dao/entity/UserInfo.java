@@ -2,8 +2,11 @@ package org.footballregistration.dao.entity;
 
 public class UserInfo {
 
+	// 用户ID
 	public String user_Id;
+	// 头像
 	public String icon;
+	// 权限组ID
 	public String group_Id;
 
 	public String getUser_Id() {

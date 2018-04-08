@@ -2,16 +2,27 @@ package org.footballregistration.dao.entity;
 
 public class EventInfo {
 
+	// 活动ID
 	public long event_id;
+	// 活动名
 	public String event_name;
+	// 状态
 	public String status;
+	// 有效期限
 	public String deadline_date;
+	// 活动类型
 	public String event_kbn;
+	// 发起人ID
 	public String proposer_user_id;
+	// 活动时间
 	public String event_date;
+	// 活动地点
 	public String event_place;
+	// 费用
 	public long event_cost;
+	// 联系方式
 	public String phone_no;
+	// 留言
 	public String comment;
 
 	public long getEvent_id() {

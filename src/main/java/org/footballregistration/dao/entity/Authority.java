@@ -2,7 +2,9 @@ package org.footballregistration.dao.entity;
 
 public class Authority {
 
+	// 权限组ID
 	public String group_Id;
+	// 权限组名
 	public String group_Name;
 
 	public String getGroup_Id() {

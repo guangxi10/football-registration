@@ -2,10 +2,15 @@ package org.footballregistration.dao.entity;
 
 public class EventParticipant {
 
+	// 活动ID
 	public long event_id;
+	// 用户ID
 	public String participant_user_id;
+	// 参加与否
 	public String participant_flg;
+	// 留言
 	public String comment;
+	// 回答时间
 	public String answer_dtime;
 
 	public long getEvent_id() {
